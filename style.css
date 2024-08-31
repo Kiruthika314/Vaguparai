@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #fff5ee;
+}
+
+.container {
+    background-color: black;
+}
+
+.header {
+    background-color: black;
+    color: #fff5ee;
+    border-radius: 2px;
+    PADDING: 12PX;
+    column-gap: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    border-radius: 2px;
+    ;
+}
+
+H1 {
+
+    font-family: ITALIC;
+    display: inline;
+}
+
+ul {
+    padding-left: 60%;
+    display: inline;
+}
+
+li {
+    display: inline;
+    PADDING: 2PX;
+}
+
+.a img {
+    width: 450px;
+    height: 250px;
+
+}
+
+.a {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #fff5ee;
+    column-gap: 10px;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #fff5ee;
+}
+
+.feat1 {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: rgba(170, 168, 168, 0.595);
+    border-radius: 6px;
+}
+
+.f1t h2 {
+    padding-top: 25px;
+
+    color: black;
+}
+
+.f1t {
+    flex: 1 1 45%;
+    padding-right: 10px;
+
+}
+
+
+.f1i {
+    flex: 1 1 45%;
+}
+
+.f1t h2,
+.f1t h4 {
+    margin-top: 5px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.f1i img {
+    max-width: 100%;
+    height: 200px;
+    ;
+}
+
+.feat2,
+.feat3 {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: rgba(170, 168, 168, 0.595);
+    border-radius: 6px;
+}
+
+.f2t h2,
+.f3t h2 {
+    padding-top: 25px;
+    color: black;
+}
+
+.f2t,
+.f3t {
+    flex: 1 1 45%;
+    padding-right: 10px;
+}
+
+.f2i,
+.f3i {
+    flex: 1 1 45%;
+}
+
+.f2t h2,
+.f2t h4,
+.f3t h2,
+.f3t h4 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.f2i img,
+.f3i img {
+    max-width: 100%;
+    height: 200px;
+}
+
+.login,
+.content1 {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px;
+
+
+}
+
+.staf,
+.stud {
+    margin: 50px;
+    ;
+    flex: 1 1 40%;
+    border: #fff5ee solid;
+    border-radius: 7px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.staf button,
+.stud button,
+.logging button,
+.sign button,
+.content1 button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 5px;
+    margin: 6px;
+    width: 80px;
+    border-radius: 9px;
+}
+
+.logging,
+.sign {
+    text-align: center;
+    padding: 25px;
+    margin: 10px auto;
+    border: #fff5ee solid;
+    border-radius: 7px;
+    width: 30%;
+
+
+}
+
+.logging input,
+.sign input {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px;
+}
+
+select {
+    background-color: white;
+    color: black;
+
+}
+
+select option {
+    background-color: #fff5ee;
+    color: black;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dd-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown:hover .dd-content {
+    display: block;
+}
+
+.content1 {
+    background-color: black;
+    color: white;
+
+}
+
+.test,
+.guide,
+.reward {
+    margin: 30px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex: 1 1 26%;
+    border: 3px solid white;
+    border-radius: 5px;
+
+}
